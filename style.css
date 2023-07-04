@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.parallax{
+    background-image: linear-gradient(rgba(0, 1, 6, 0.775),rgba(21, 36, 90, 0.7)),url('./main_background.jpg');
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(21, 36, 90, 0.7),rgba(5, 9, 26, 0.7)),url('./main_background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+}
+.secure-access, .one-click-safe, .use-vpn{
+    margin:0 8%;
+    padding: 1% 5%;
+    display:flex ;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.secure-access-img, .secure-access-text, .one-click-text, .one-click-img, .use-vpn-text, .use-vpn-img{
+    width: 50%;
+    height: 50%;
+}
+.parallax h1{
+    font-size: 60px;
+    line-height: 95%;
+    width: 80%;
+   margin-bottom: 15px;
+   color: white;
+}
+.parallax p{
+    font-size: 15px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+.parallax  button{
+    width: 25%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: lightskyblue;
+
+}
+.secure-access, .service-1{
+    
+    background-color: rgba(127, 255, 212, 0.663);
+}
+.one-click-safe, .service-2{
+    margin: 3% 8%;
+    background-color: rgba(127, 168, 255, 0.663);
+}
+.use-vpn, .service-3{
+    margin: 3% 8%;
+    background-color: rgba(255, 219, 127, 0.663);
+}
+.secure-access-img img, .one-click-img img, .use-vpn-img img{
+    width: 100%;
+    width: 100%;
+}
+.service-1,.service-2,.service-3{
+    margin: 3% 5%;
+}
+.service{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+    
+}
+.service img{
+    width: 50%;
+    height: 50%;
+}
+.service-1, .service-2, .service-3{
+    border-radius: 10px;
+    padding: 8%;
+}
+.service h1{
+   font-size: 30px;
+   text-align: center;
+   margin: 5% 0;
+   width: 100%;
+   
+}
+.social-icon{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.social-icon i{
+    background-color: aquamarine;
+    width: 3%;
+    height: 15%;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.advantage button{
+    width: 10%;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.advantage{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.google-map{
+    text-align: center;
+    text-align: -moz-center;
+    margin: auto;
+    padding: 3%;
+    background-color: #c4c5c5;
+}
+.gmap_canvas{
+    border-radius: 8px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.google-map .text{
+    margin-left: 1%;
+    color: yellow;
+}
+.text h1,p{
+    margin-bottom: 1px;
+    color: yellow;
+    
+}
+.link{
+    margin: 3% 0 2px 0;
+}
+.hero .text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  color:white ;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero .text h1{
+    color: white;
+    font-size: 80px;
+    width: max-content;
+    margin-bottom: 2%;
+}
+.hero button{
+    width: 25%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: lightskyblue;
+    margin: 3%;
+}
+.navbar{
+    padding-top: 2%;
+    height: 10%;
+}
+.navbar select{
+    width: 100px;
+    height: 30px;
+    background-color: #102147;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
